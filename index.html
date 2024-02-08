@@ -14,33 +14,51 @@
 
 <body>
   <header>
-    <nav class="navbar navbar-light navbar-expand-lg">
+    <nav class="navbar navbar-light navbar-expand-lg fixed-top">
       <div class="container-fluid">
-            <a class="navbar-brand" href="#">
-              <img src="/asset/artworks/art.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+        <div class="row">
+          <div class="col">
+            <a class="navbar-brand" href="#hero">
+              <img src="/asset/artworks/art.png" alt="Logo" width="30" height="24"
+                class="d-inline-block align-text-top">
               ARTHECHOUSE
             </a>
-        <div id="mainNav" class="collapse navbar-collapse">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a href="appli.html" class="nav-link">L'appli</a>
-            </li>
-            <li class="nav-item">
-              <a href="fonctionnaliter.html" class="nav-link">Fonctionnaliter</a>
-            </li>
-            <li class="nav-item">
-              <a href="tarifs.html" class="nav-link">Tarifs</a>
-            </li>  
-            <li class="nav-item">
-              <a href="voirPlus.html" class="nav-link">En savoir plus</a>
-            </li>  
-            <li class="nav-item">
-              <a href="temoignage.html" class="nav-link">Temoignage</a>
-            </li>              
+            <div id="mainNav" class="collapse navbar-collapse">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a href="#appli" class="nav-link">L'appli</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#fonctionnaliter" class="nav-link">Fonctionnaliter</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#tarifs" class="nav-link">Tarifs</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#voirPlus" class="nav-link">En savoir plus</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#temoignage" class="nav-link">Temoignage</a>
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
-        </ul>
+
+        <div class="col">
+          <div data-bs-spy="scroll" data-bs-target="#mainNav" data-bs-offset="0" data-bs-smooth-scroll="true" class="scrollspy" tabindex="0">
+            <h3 id="appli">L'appli</h3>
+            <h3 id="fonctionnaliter">Fonctionnaliter</h3>
+            <h3 id="tarifs">Tarifs</h3>
+            <h3 id="voirPlus">En savoir plus</h3>
+            <h3 id="temoignage">Temoignage</h3>
+          </div>
+        </div>
+
       </div>
     </nav>
+
+
   </header>
   <main></main>
   <footer></footer>
