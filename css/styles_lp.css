@@ -76,6 +76,10 @@ iframe{
 
 /*---------Section pied de page------*/
 footer{
-  background-color: var(--grisPale);
   font-family: "Quicksand";
+  background-color: var(--grisPale);
+}
+
+.footer{
+  background-color: #3c6d71;
 }
