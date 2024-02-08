@@ -60,7 +60,11 @@ nav{
     background-color: var(--grisPale);
     font-family: "Quicksand";
     font-weight: 600;
+}
 
+footer{
+  background-color: var(--grisPale);
+  font-family: "Quicksand";
 }
 /*--------Section Hero---------*/
 
