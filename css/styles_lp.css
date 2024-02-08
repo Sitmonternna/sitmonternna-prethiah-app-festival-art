@@ -62,12 +62,20 @@ nav{
     font-weight: 600;
 }
 
+
+/*--------Section Hero---------*/
+
+.cadre{
+  width: 100%;
+}
+
+iframe{
+  height: 55.56%;
+}
+/*----------Section Foncsionntlite LP-------*/
+
+/*---------Section pied de page------*/
 footer{
   background-color: var(--grisPale);
   font-family: "Quicksand";
 }
-/*--------Section Hero---------*/
-
-/*----------Section Foncsionntlite LP-------*/
-
-/*---------Section pied de page------*/
