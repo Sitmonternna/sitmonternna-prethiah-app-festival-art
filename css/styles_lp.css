@@ -63,6 +63,10 @@ nav{
 }
 
 /*--------Section Hero---------*/
+.btn{
+  color: var(--bleu);
+  border-color: var(--bleu);
+}
 
 .cadre{
   width: 100%;
