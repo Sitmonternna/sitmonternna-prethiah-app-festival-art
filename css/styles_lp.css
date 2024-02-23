@@ -69,11 +69,7 @@ nav{
 }
 
 .iframe-container{
-  position: relative;
-  width: 50%;
-  padding-bottom: 70%;
-  height: 0;
-  overflow: hidden;
+  
 }
 
 main{
